@@ -1,0 +1,98 @@
+[
+  {
+    "name": "The Woods",
+    "description": "A dense forest with towering trees.",
+    "enhacedDescription": "The woods are dense and silent, with only the occasional rustle of leaves\nin the wind. The air smells damp, and you hear the distant call of an owl.\nYou see an old sword and shield laying around.",
+    "items": [
+      {
+        "name": "Sword",
+        "description": "A sharp steel sword."
+      },
+      {
+        "name": "Shield",
+        "description": "A sturdy wooden shield."
+      }
+    ],
+    "exits": {
+      "north": "The Clearing",
+      "south": "a path",
+      "east": "a road"
+    }
+  },
+  {
+    "name": "The Clearing",
+    "description": "A small clearing with sunlight streaming through.",
+    "enhacedDescription": "The clearing is a small, open space surrounded by tall, shadowy trees.\nThe soft rustling of leaves can be heard in the gentle breeze, and the air\nsmells fresh, with hints of wildflowers and earth. The sun's\nsetting light filters through the canopy above, casting\ndappled patterns on the ground. In the center, a small stream\ntrickles, its sound soothing against the quiet of the night. The peaceful\natmosphere is interrupted only by the occasional call of a distant bird.\nThere's a map nailed to a dead trunk tree in front of you.",
+    "items": [
+      {
+        "name": "Map",
+        "description": "A map of the surrounding area."
+      }
+    ],
+    "exits": {
+      "south": "The Woods",
+      "east": "a cave"
+    }
+  },
+  {
+    "name": "a cave",
+    "description": "A crooked entrance opens between some bushes deep in the woods ahead.",
+    "enhacedDescription": "The cave is damp and smells of earth and moss.\nThe air is cool, and the ground is uneven.\nYou can hear the distant echoes of water dripping from the ceiling.\nIn the distance, over a rock, you see what appears to be a fresh torch pole.",
+    "items": [
+      {
+        "name": "Torch",
+        "description": "A stick clothed in its tip ready to be fired."
+      }
+    ],
+    "exits": {
+      "west": "The Clearing"
+    }
+  },
+  {
+    "name": "a path",
+    "description": "A long dirt path surrounded by trees where you cannot see the sky above.",
+    "enhacedDescription": "The path stretches endlessly through the dense woods, the dirt beneath your feet soft and uneven.\nTall trees line both sides, their thick branches intertwining overhead, blocking out most of the sky.\nThe air is heavy with the scent of damp earth and decaying leaves, and the only sounds you hear are\n the rustling of branches in the wind. As you walk, the path seems to wind deeper into the forest,\n the light growing dimmer. Occasionally, you catch glimpses of small animals darting between the trees.",
+    "items": [],
+    "exits": {
+      "north": "The Woods"
+    }
+  },
+  {
+    "name": "a road",
+    "description": "A wide road made out of boulders. It's easy\n to appreaciate it could be some kind of main road leading somewhere.",
+    "enhacedDescription": "The road stretches wide, paved with large boulders smoothed \nfrom countless footsteps and the passage of time and carriages. There's \na solemn feel here, as if many have traveled this path \nlong ago, making their way to unknown places beyond. \nThe rough stones underfoot give way to traces of weeds \nand moss, hinting at nature's quiet reclamation.\n\nIn the fading light, shadows gather along the sides \nof the road, and a sense of anticipation lingers \nin the cool air. You can see the faint silhouette \nof a building to the east, likely an inn, while to the \nwest the path disappears into the dense, mysterious \nwoods. A glimpse further south, seems another path forks.",
+    "items": [],
+    "exits": {
+      "west": "The Woods",
+      "east": "the inn",
+      "south": "the path forking to the south"
+    }
+  },
+  {
+    "name": "the path forking to the south",
+    "description": "You make your way down the path that forks south, carefully stepping over the polished mossy boulders\n of the road. A cold breeze tingles your neck as you approach the turn.",
+    "enhacedDescription": "A caravan suddenly appears neatly tilted onto the road, 'tis an old wooden cart draped in colorful fabrics, with a faint\n smell of spices and leather. A weary merchant does not even greet you, his eyes scanning the horizon \ndead and distant. He seemd to come from afar. Not only his face, partly coverd by a folded cloth,\n but his eyes where a different gaze, just as his thick accent as he spoke your language to salute you,\n from somewhere you couldn't even glimpse.",
+    "items": [],
+    "npc": "caravan merchant",
+    "shop": {
+      "name": "Wandering Caravan Shop",
+      "itemsForSale": [
+        {
+          "name": "Potion",
+          "price": 10
+        },
+        {
+          "name": "Lantern",
+          "price": 25
+        },
+        {
+          "name": "Rope",
+          "price": 5
+        }
+      ],
+      "exits": {
+        "north": "the road"
+      }
+    }
+  }
+]

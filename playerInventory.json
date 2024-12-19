@@ -1,0 +1,8 @@
+{
+    "playerInventory": [
+      {"name": "Gold", "quantity": 50},
+      {"name": "Health Potion", "quantity": 2},
+      {"name": "Torch", "quantity": 1}
+    ]
+  }
+  

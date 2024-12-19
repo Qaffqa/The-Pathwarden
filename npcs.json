@@ -1,0 +1,12 @@
+[
+    {
+        "name": "caravan merchant",
+        "room": "the path forking to the south",
+        "description": "A weary merchant with distant eyes.",
+        "dialogues": [
+          "Welcome, traveler.",
+          "Care to trade?"
+        ]
+      }
+    
+]
