@@ -17,6 +17,8 @@ import java.io.IOException;
 import java.lang.reflect.Type;
 import java.util.List;
 import textadventure.entities.NPC;
+import com.google.gson.Gson;
+import java.io.FileWriter;
 
 
 /**
@@ -70,7 +72,7 @@ public Game() {
 private void loadRoomsFromJson() {
     Gson gson = new Gson();
 
-    try (FileReader reader = new FileReader("c:\\Users\\danie\\Desktop\\textadventure\\roomItems.json")) {
+    try (FileReader reader = new FileReader("c:\\Users\\danie\\Desktop\\The-Pathwarden\\roomItems.json")) {
         // Define el tipo de datos que estás deserializando
         Type roomListType = new TypeToken<List<RoomData>>() {}.getType();
         List<RoomData> roomDataList = gson.fromJson(reader, roomListType);
@@ -117,7 +119,7 @@ private void loadRoomsFromJson() {
     
     private void loadNPCsFromJson() {
         Gson gson = new Gson();
-        try (FileReader reader = new FileReader("c:\\Users\\danie\\Desktop\\textadventure\\npcs.json")) {
+        try (FileReader reader = new FileReader("C:\\Users\\danie\\Desktop\\The-Pathwarden\\npcs.json")) {
             Type npcListType = new TypeToken<List<NPC>>() {}.getType();
             List<NPC> npcList = gson.fromJson(reader, npcListType);
 

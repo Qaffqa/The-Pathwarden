@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"textadventure.entities"},{"l":"textadventure.game"},{"l":"textadventure.logic"},{"l":"textadventure.util"}];updateSearchResults();
